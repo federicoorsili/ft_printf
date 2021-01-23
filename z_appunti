@@ -1,0 +1,4 @@
+retrieve the value of the pointer from the argument va_list.
+convert that pointer to a uintptr_t or whatever unsigned integer type is appropriate for the pointer size on your target architecture.
+convert this integer to a string in hexadecimal format with a 0x prefix, as for the %#x format.
+write the resulting string to the output file.
